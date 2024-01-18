@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AABB_SphereCollision", "src\2DCollision.vcxproj", "{64A40676-0C8B-4220-9836-AF3575585755}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64A40676-0C8B-4220-9836-AF3575585755}.Debug|x86.ActiveCfg = Debug|Win32
+		{64A40676-0C8B-4220-9836-AF3575585755}.Debug|x86.Build.0 = Debug|Win32
+		{64A40676-0C8B-4220-9836-AF3575585755}.Release|x86.ActiveCfg = Release|Win32
+		{64A40676-0C8B-4220-9836-AF3575585755}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7EC2263-25F9-4CAD-B4DB-8DB96903F6F6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/juanfracocastillo
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\2DCollision.vcxproj
+		SccProjectName1 = src
+		SccLocalPath1 = src
+	EndGlobalSection
+EndGlobal

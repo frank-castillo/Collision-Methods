@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="wcode\fswin32keymap.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="wcode\fswin32winmain.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="wcode\fswin32wrapper.cpp">
+      <Filter>win</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapfont\ysglfontdata.c">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapfont\ysglusefontbitmap.c">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="bitmapfont\ysglmaketextbitmap.c">
+      <Filter>font</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrices.cpp">
+      <Filter>math</Filter>
+    </ClCompile>
+    <ClCompile Include="eig3.cpp" />
+    <ClCompile Include="continuousCD_Resolution.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fssimplewindow.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="wcode\fswin32keymap.h">
+      <Filter>win</Filter>
+    </ClInclude>
+    <ClInclude Include="bitmapfont\ysglfontdata.h">
+      <Filter>font</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrices.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="vectors.h">
+      <Filter>math</Filter>
+    </ClInclude>
+    <ClInclude Include="eig3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="win">
+      <UniqueIdentifier>{75aea548-be64-43f0-9f42-e738bf786b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="font">
+      <UniqueIdentifier>{1972a10a-8c1c-4343-b2ba-4e81d4692994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="math">
+      <UniqueIdentifier>{61662cb6-c2f7-4a0c-9f32-ef179ddf8e35}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
